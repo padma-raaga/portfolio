@@ -1,0 +1,89 @@
+body{
+    background-color: burlywood;
+}
+h1{
+    text-align:center;
+    color:crimson;
+}
+h1:hover{
+    text-decoration: solid;
+}
+p{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 30px auto;
+    padding: 5px;
+    border: 1px solid black;
+}
+nav a:hover{
+    background-color: darkcyan;
+    color:cornsilk;
+}
+section{
+    background-color: floralwhite;
+    text-align: center;
+    width: 800px;
+    margin: 6px auto;
+    border-radius: 60px;
+    padding: 10px;
+}
+figure{
+text-align: center;
+}
+img{
+border-radius: 60%;
+animation: rotate1 2s infinite;
+}
+@keyframes rotate1{
+     0%{
+        transform: rotate(0deg);
+     }
+     50%{
+        transform: rotate(360deg);
+     }
+     100%{
+        transform:rotate(0deg) ;
+     }
+}
+
+img:hover{
+    box-shadow: 0px 5px 5px ;
+}
+fig caption{
+    font-size:larger;
+}
+h2{
+    text-align: center;
+}
+section h2{
+    text-align:center;
+}
+hr{
+    margin: 20px auto;
+}
+h2{
+    color: crimson;
+}
+li{
+    list-style-type: none;
+    text-align: center;
+}
+li:hover{
+    background-color:burlywood;
+}
+form{
+    text-align:center;
+}
+button{
+    margin-left: 50px ;
+}
+button:hover{
+    background-color: cornflowerblue;
+    color: rgb(249,221,186);
+}
